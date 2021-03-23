@@ -1,0 +1,38 @@
+.section_four {
+    background-color: #ffffff;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    outline: unset;
+    max-width: 255px;
+    padding: 0 15px;
+}
+
+.item img {
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.item a {
+    font-family: "OpenSans_regular", sans-serif;
+    font-size: calc(16px + 0.53vw);
+    color: #3e3e3e;
+    transition: all ease 0.8s;
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* Styles */
+    .slick-track{
+        transform: translate3d(0, 0px, 0px);
+    }
+
+}
+
+

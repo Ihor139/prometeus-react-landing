@@ -1,0 +1,30 @@
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 5px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: calc(20px + 1.78vw) calc(10px + 1.19vw);
+}
+
+.section_title{
+    font-family: "OpenSans_regular", sans-serif;
+    font-size: calc(18px + 1.60vw);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #3e3e3e;
+    padding-bottom: calc(20px + 1.48vw);
+}

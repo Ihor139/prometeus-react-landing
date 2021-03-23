@@ -1,0 +1,39 @@
+.footer{
+    background-color: #a99473;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.designers{
+    padding-bottom: 40px;
+    font-family: "OpenSans_regular", sans-serif;
+    letter-spacing: 2px;
+}
+
+.designers h2 span {
+    color: #fff;
+    padding-right: 10px;
+}
+
+.designers h2 a {
+    color: #ba271f;
+}
+
+.designers h2:nth-child(1) {
+    padding-bottom: 25px;
+}
+
+.socail_row {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.socail_row a {
+    padding: 0 25px;
+}

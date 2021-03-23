@@ -1,0 +1,91 @@
+.section_five {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    background-color: #a99473;
+    /*background-image: url("../../../../../images/Education.png");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: left;*/
+    min-height: 455px;
+}
+
+.section_five:after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    background-image: url("../../../../../images/Education.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.content {
+    width: 50%;
+    padding: 0 calc(20px + 1.78vw) 0 calc(40px + 2.97vw);
+    color: #fff;
+}
+
+.wrapper {
+    align-items: flex-end;
+}
+
+.section_title {
+    font-family: "OpenSans_light", sans-serif;
+    font-size: calc(18px + 1.01vw);
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: calc(20px + 0.854vw);
+}
+
+.description {
+    padding-bottom: calc(20px + 1.78vw);
+}
+
+.get_wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.get_link {
+    padding: 20px 74px;
+    font-family: "OpenSans_regular", sans-serif;
+    font-size: calc(16px + 0.297vw);
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #ba271f;
+    transition: all ease 0.8s;
+
+}
+
+.get_link:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+    /* Styles */
+    .section_five:after {
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+        padding: unset;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .get_wrapper {
+        justify-content: center;
+    }
+}

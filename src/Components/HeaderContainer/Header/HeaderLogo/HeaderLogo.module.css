@@ -1,0 +1,7 @@
+.logo {
+    padding-right: calc(5px + 1.82vw);
+    font-family: "Lato_light", sans-serif;
+    font-size: calc(20px + 1.66vw);
+    line-height: 1;
+    text-transform: uppercase;
+}

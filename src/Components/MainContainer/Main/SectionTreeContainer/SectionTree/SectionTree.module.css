@@ -1,0 +1,97 @@
+.section_tree{
+    background-color: #f0f0f0;
+}
+.subtitle{
+    font-family: "OpenSans_regular", sans-serif;
+    font-size: calc(16px + 0.53vw);
+    text-align: center;
+    text-transform: none;
+
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #e8e8e8;
+}
+.course_description {
+    flex: 1 1 calc(50% - 25px);
+    padding: 0 15px 0 10px;
+    color: #3e3e3e;
+}
+
+.course_description h2 {
+    text-align: center;
+    font-family: "OpenSans_regular", sans-serif;
+    font-size: calc(15px + 0.83vw);
+    padding-bottom: calc(10px + 0.77vw);
+}
+
+.course_description p {
+    font-family: "Lato_regular", sans-serif;
+    font-size: calc(14px + 0.23vw);
+    padding-bottom: calc(10px + 0.75vw);
+}
+
+.course_info {
+    font-family: "Lato_regular", sans-serif;
+    font-size: calc(14px + 0.23vw);
+    color: #fa3a5e;
+    padding-bottom: calc(15px + 0.89vw);
+}
+
+.course_info:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.registration_wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+
+.registration_link {
+    padding: 10px 15px;
+    background-color: #ba271f;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transition: all ease 0.8s;
+}
+
+.registration_link:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.image {
+    flex: 1 1 calc(50% - 30px);
+}
+
+.image img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 475px) {
+    /* Styles */
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .item{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}

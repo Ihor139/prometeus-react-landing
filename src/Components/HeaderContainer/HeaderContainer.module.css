@@ -1,0 +1,32 @@
+.header{
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    min-height: 100px;
+    transition: all ease 0.8s;
+}
+.header.scroll {
+    min-height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+}
+
+@media only screen and (max-width: 767.9px) {
+.header{
+    min-height: 70px;
+}
+}
+@media only screen and (max-width: 1024px) {
+    .header {
+        min-height: 70px;
+    }
+}

@@ -1,0 +1,12 @@
+.link {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    display: inline-flex;
+    background: linear-gradient(#fff, #fff) bottom/0% 2px no-repeat;
+    transition: all ease 0.8s;
+}
+.link:hover {
+    cursor: pointer;
+    background-size: 100% 2px;
+}
